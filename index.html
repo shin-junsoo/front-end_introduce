@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <h1><a href="#">SHIN JUN SOO</a></h1>
+            <ul id="gnb">
+                <li><a href="#introduce">introduce</a></li>
+                <li><a href="#strength">strength</a></li>
+                <li><a href="#growth">growth</a></li>
+                <li><a href="#guest">guestbook</a></li>
+            </ul>
+    </header>
+    <figure id="introduce">
+        <div class="introduce">
+            <div class="who">
+                <h3>home</h3>
+                <h2>안녕하세요 국제통상학부 신준수입니다.</h2>
+                <p>나이: 24살</p>
+                <p>학번 및 학년: 2020510001 3학년</p>
+            </div>
+            <ol class="carrier">
+                <li><a href="#elementary"><em class="year">2008.03 ~ 2013.12 </em>:안산초등학교 졸업</a></li>
+                <li><a href="#elementary"><em class="year">2014.03 ~ 2016.12 </em>:인창중학교 졸업</a></li>
+                <li><a href="#elementary"><em class="year">2017.03 ~ 2019.12 </em>:인창고등학교 졸업</a></li>
+                <li><a href="#elementary"><em class="year">2020.03 ~ </em>:광운대학교 재학중</a></li>
+            </ol>
+            <div class="me">
+                <img src="img/여권.jpg" alt="나의 모습">
+            </div>
+        </div>
+    </figure>
+
+    <main id="strength">
+        <div class="container">
+            <h3>strength</h3>
+            <h2>저는 이런 강점이 있습니다</h2>
+            <div class="great">
+                <details class="good1">
+                    <summary>1. 무엇이든지 긍정적으로 생각하는 습관을 가지고 있습니다.</summary>
+                    <p>어릴 때 부터 항상 들어왔던 말이 <strong> '긍정적으로 생각해라'</strong>였습니다. <br> 그러면서 자연스럽게 긍정의 마인드를 갖게 되었고 <br>이후 힘든
+                        일이나 화나는 일이 있을
+                        때<br> 항상
+                        긍정적으로 생각하면서 난관을 극복하게 되었습니다. </p>
+
+                    <img src="img/긍정.jpg" alt="">
+
+                </details>
+                <details class="good2">
+                    <summary>2. 목표가 생기면 그것을 이루기 위해 끝까지 노력합니다.</summary>
+                    <p>확실한 목표가 생기면 그것을 이루려는 동기부여가 되면서 <br>할 수 있는 한 최대한으로 노력해서 대부분 달성합니다. <br>국제통상학부임에도 불구하고 정보융합학부
+                        과목을 듣는 것도<br>취업을 위한 강한 동기부여가 있기 때문에 하고 있는 것입니다.</p>
+
+                    <img src="img/노력.jpg" alt="">
+                </details>
+                <details class="good3">
+                    <summary>3. 상대방을 배려하는 성격입니다</summary>
+                    <p>사람들과의 소통을 좋아합니다. <br>그러다보니 저절로 사람을 배려하는 습관이 만들어진 것 같습니다.
+                        <br>배려함으로써 약간의 손해가 있을 수 있지만 <br>그 사람과의 관계와 재미를 생각하면 <br>배려를 하는 삶은 그만큼의 충분한 가치가 있습니다.
+                    </p>
+                    <img src="img/배려.jpg" alt="">
+                </details>
+            </div>
+        </div>
+    </main>
+
+    <section id="growth">
+        <div class="inner">
+            <h1>성장기</h1>
+            <div class="wrap">
+                <article id="elementary">
+                    <div class="pic">
+                        <img class="child" src="img/유년기.jpg" alt="이미지 1">
+                    </div>
+                    <h2><a href="#">유년기</a></h2>
+                    <p>유년기 시절입니다. 정확히 기억이 나지는 않지만 놀이터에 나가서 열심히 뛰어 놀았던 기억이 있습니다. 걱정이 없고 천진난만한 시절이었습니다.
+                    </p>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img class="middle" src="img/중학생.jpg" alt="이미지 2">
+                    </div>
+                    <h2><a href="#">중학생</a></h2>
+                    <p>중학생 시절입니다. 친구들과 노는 것을 좋아했고 특히 야구 시청을 좋아하였습니다.
+                    </p>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img class="high" src="img/고등학생.jpg" alt="이미지 3">
+                    </div>
+                    <h2><a href="#">고등학생</a></h2>
+                    <p>고등학생 시절입니다. 대학교 진학에 관해 걱정이 많은 시기였고 이때부터 공부라는 것을 열심히하기 시작하였습니다. 이때는 야구보다는 축구 시청에 더 관심이 있었습니다.
+                    </p>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img class="now" src="img/현재의 나.jpg" alt="이미지 4">
+                    </div>
+                    <h2><a href="#">현재의 나</a></h2>
+                    <p>현재 저의 모습입니다. 현재에는 제 적성에 맞는 직업을 찾고있습니다. 제 적성에 맞는 일을 해야 행복할 것이라 생각하기 때문입니다.
+                        그리고 현재에는 야구 시청에 더 관심이 있습니다.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="guest">
+        <div class="guestbook">
+
+            <h1>방명록</h1>
+
+            <input type="text" class="guestbook-input" placeholder="방명록을 작성해주세요">
+            <div class="guestbook-container">
+                <div class="guestbook-item">
+                    123
+                    <button class="delete-btn">x</button>
+                </div>
+                <div class="guestbook-item">
+                    123
+                    <button class="delete-btn">x</button>
+                </div>
+                <div class="guestbook-item">
+                    123
+                    <button class="delete-btn">x</button>
+                </div>
+                <div class="guestbook-item">
+                    123
+                    <button class="delete-btn">x</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="inner">
+            <div class="thank">
+                <h1>감사합니다.</h1>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
